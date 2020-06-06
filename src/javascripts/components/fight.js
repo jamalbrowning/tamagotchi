@@ -1,10 +1,8 @@
-import utils from '../helpers/utils';
 import '../../styles/_fight.scss';
+import fight from './quadFunc';
 
 const creatFight = () => {
-  let domString = '';
-  domString += '<h1>fight</h1>';
-  utils.printToDom('#fight', domString);
+  fight.action('fight', 100, 'Strength Points', '<h2>Run Away Bravely</h2><i class="fas fa-running"></i>', '<h2>Commiting Violence</h2><i class="fas fa-skiing"></i>', 'strength');
 };
 
 export default { creatFight };

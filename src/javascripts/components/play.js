@@ -1,11 +1,8 @@
-import utils from '../helpers/utils';
 import '../../styles/_play.scss';
+import play from './quadFunc';
 
 const createPlay = () => {
-  let domString = '';
-
-  domString += '<h1>play</h1>';
-  utils.printToDom('#play', domString);
+  play.action('play', 50, 'Happiness', '<h2>Super Duper Fun</h2><i class="fas fa-baseball-ball"></i>', '<h2>SLightly Fun</h2><i class="fas fa-volleyball-ball"></i>', 'fun');
 };
 
 export default { createPlay };
