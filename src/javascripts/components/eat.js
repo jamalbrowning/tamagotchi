@@ -7,7 +7,7 @@ const healthyFoods = 10;
 const fattyFoods = -3;
 
 const createEat = () => {
-  eat.action('eat', fullness, 'Health', '<h2>Healthy</h2><i class="fas fa-apple-alt"></i>', '<h2>Unhealthy</h2><i class="fas fa-hamburger"></i>', 'full', 'healthy', 'unhealthy');
+  eat.action('eat', fullness, 'Fullness', '<h2>Healthy</h2><i class="fas fa-apple-alt"></i>', '<h2>Unhealthy</h2><i class="fas fa-hamburger"></i>', 'full', 'healthy', 'unhealthy');
 };
 
 // increment and decrement
