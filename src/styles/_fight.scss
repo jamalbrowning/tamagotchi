@@ -1,3 +1,15 @@
 #fight {
   background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  button {
+    min-width: 10vw;
+    border-radius: 1rem;
+    font-size: 1vw;
+  }
+  i {
+    font-size: 2vw;
+  } 
 }

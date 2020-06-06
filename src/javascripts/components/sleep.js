@@ -1,10 +1,9 @@
-import utils from '../helpers/utils';
 import '../../styles/_sleep.scss';
+import sleep from './quadFunc';
 
 const createSleep = () => {
-  let domString = '';
-  domString += '<h1>sleep</h1>';
-  utils.printToDom('#sleep', domString);
+  sleep.action('sleep', 50, 'Energy', '<h2>Nap</h2><i class="fas fa-bed"></i>', '<h2>deep slumber</h2><i class="far fa-dizzy"></i>', 'strength');
 };
+
 
 export default { createSleep };
