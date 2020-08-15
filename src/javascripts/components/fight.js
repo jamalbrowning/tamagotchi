@@ -6,7 +6,6 @@ let strength = 100;
 const incrementStrength = 1;
 const decrementStrength = -10;
 
-
 const creatFight = () => {
   fight.action('fight', strength, 'Strength Points', '<h2>Run Away Bravely</h2><i class="fas fa-running"></i>', '<h2>Commiting Violence</h2><i class="fas fa-skiing"></i>', 'strength', 'run', 'commit');
 };
