@@ -1,0 +1,21 @@
+[debug] [2020-08-15T18:19:58.843Z] ----------------------------------------------------------------------
+[debug] [2020-08-15T18:19:58.844Z] Command:       /usr/local/Cellar/node/13.12.0/bin/node /usr/local/bin/firebase init
+[debug] [2020-08-15T18:19:58.845Z] CLI Version:   8.4.3
+[debug] [2020-08-15T18:19:58.845Z] Platform:      darwin
+[debug] [2020-08-15T18:19:58.845Z] Node Version:  v13.12.0
+[debug] [2020-08-15T18:19:58.846Z] Time:          Sat Aug 15 2020 13:19:58 GMT-0500 (Central Daylight Time)
+[debug] [2020-08-15T18:19:58.846Z] ----------------------------------------------------------------------
+[debug] [2020-08-15T18:19:58.846Z] 
+[debug] [2020-08-15T18:19:58.857Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-15T18:19:58.857Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jamalbrowning/workspace/pattern_tools/exercises/tamagotchi
+
